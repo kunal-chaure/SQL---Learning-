@@ -14,6 +14,7 @@ INSERT INTO Students VALUES
 (3, 'Amit', 19, 'Nashik');
 
 select * from students;
+-- done
 
  SELECT Name FROM Students;
 
