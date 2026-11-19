@@ -9,4 +9,10 @@
 -- create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 -- );
 -- SELECT * FROM 	users;
- SELECT id , name FROM users;
+--  SELECT id , name FROM users;-- 
+
+
+-- RENAME TABLE kunal TO anil; 
+-- show tables
+
+SELECT * FROM anil
