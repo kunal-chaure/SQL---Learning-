@@ -22,8 +22,16 @@
 -- select * from Studentss
 -- Alter table Studentss modify column email varchar(200);
 
-INSERT INTO Studentss values 
-('kunal diwanji chaure', 20,'Kunalchaure40@gmail.com', 'AIDS');
+
 
 -- INSERT INTO Studentss (name, age, email, branch)
 -- VALUES ('kunal diwanji chaure', 20, 'Kunalchaure40@gmail.com', 'AIDS');
+
+-- USE StudentDB;
+-- INSERT INTO Studentss (name, age, email, branch)
+-- VALUES ('kunal_diwanjic-haure', 20, 'Kunalchaure40@gmail.com', 'AIDS'),
+-- ('anil diwanji chaure',22,'anichaure40@gmail.com', 'MCA'),
+-- ('Mahesh pund', 29, 'mahesh@gmail.com', 'QA-engineer'),
+-- ('diwanji baban chaure', 50, 'diwanji40@gmail.com', 'farmar');
+
+select * from Studentss;
