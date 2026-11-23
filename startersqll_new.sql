@@ -54,4 +54,11 @@ use startersqll;
 -- SELECT * FROM users where date_of_birth IS NOT NULL;
 --  SELECT * FROM users where date_of_birth BETWEEN '1990-5-5' AND '1995-5-5' ;
 -- SELECT * FROM users where gender in ('Male', 'Female');
-SELECT * FROM users where  salary > '70000'  AND gender = 'Male';
+-- SELECT * FROM users where  salary > '70000'  AND gender = 'Male';
+-- SELECT * FROM users where  salary > '1000'  AND gender = 'Male' order by date_of_birth ASC;
+-- SELECT * FROM users where  salary > '1000'  AND gender = 'Male' order by date_of_birth DESC  LIMIT 5;
+-- SELECT * FROM users where  salary > '1000'  AND gender = 'Male'LIMIT 5;
+-- select * from users where salary  between 60000 and 80000 ;
+
+
+
