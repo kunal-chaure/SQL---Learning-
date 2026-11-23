@@ -46,5 +46,12 @@
 
 
 -- STEP 5: Display All Records
-SELECT name, gender , salary from users;
-SELECT * FROM users;
+use startersqll;
+-- SELECT * FROM users where gender = 'Male' ;
+-- SELECT * FROM users where gender != 'Male';
+-- SELECT name , gender from users where name = 'Lata';
+-- SELECT * FROM users where date_of_birth <= '1995-11-1';
+-- SELECT * FROM users where date_of_birth IS NOT NULL;
+--  SELECT * FROM users where date_of_birth BETWEEN '1990-5-5' AND '1995-5-5' ;
+-- SELECT * FROM users where gender in ('Male', 'Female');
+SELECT * FROM users where  salary > '70000'  AND gender = 'Male';
