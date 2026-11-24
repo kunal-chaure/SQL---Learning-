@@ -60,5 +60,22 @@ use startersqll;
 -- SELECT * FROM users where  salary > '1000'  AND gender = 'Male'LIMIT 5;
 -- select * from users where salary  between 60000 and 80000 ;
 
+-- now to to learn about updating the data  
 
+-- select * from users;
 
+-- update users set salary = 38000 where id = 2;
+-- select * from users;
+
+-- INSERT INTO users (name, email, gender, date_of_birth, salary)
+--  VALUES ('kunal', 'Kunalchaure@gmail.com', 'Male','2006-2-5','200000')
+
+-- select * from users;
+
+-- update users set email = 'kunal_chaure.com' where id  ='26  ';
+
+-- update users set salary = salary + 10000 where salary <60000;
+
+-- delete from users where id = 22;
+-- drop table users; -- never use it as it going to delete whole table
+select *from users;
