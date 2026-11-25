@@ -57,5 +57,22 @@ USE startersqlll;
 
 -- SELECT COUNT(*) FROM  datas WHERE gender = 'Male
 
- SELECT COUNT(*) FROM  datas WHERE gender = 'Female';
+--  SELECT COUNT(*) FROM  datas WHERE gender = 'Female';
  
+-- SELECT MIN(salary) AS min_salary , MAX(salary) AS max_salary FROM datas;
+
+-- SELECT SUM(salary) AS total_salary FROM datas;
+
+-- SELECT AVG(salary) AS avg_salary FROM datas;
+
+-- SELECT gender, MAX(salary) AS max_salary FROM datas GROUP BY GENDER ;
+
+
+-- SELECT gender, name, salary
+-- FROM datas
+-- WHERE (gender, salary) IN (
+--     SELECT gender, MAX(salary)
+--     FROM datas
+--     GROUP BY gender
+-- )
+SELECT id ,LOWER(name) lower from datas ;
